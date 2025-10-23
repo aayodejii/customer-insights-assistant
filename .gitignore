@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Test & coverage
+.coverage
+htmlcov/
+*.cover
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+.idea/
+*.orig
