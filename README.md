@@ -242,7 +242,7 @@ Chat-based interface allows follow-up questions and context retention
 
 ```bash
 # 1. Install dependencies
-pip install langchain-ollama langchain-chroma gradio pandas
+pip install -r requirements.txt
 
 # 2. Install Ollama and pull models
 ollama pull llama3.2
@@ -252,16 +252,17 @@ ollama pull mxbai-embed-large
 python vector.py  # Creates vector store
 
 # 4. Launch application
-python app.py
+python main.py
 ```
 
 ---
 
 ## Project Links
 
-- **GitHub Repository:** [Your GitHub Link]
-- **Live Demo:** [Your Demo Link]
-- **Blog Post:** [Your Blog Link]
+<!-- TODO -->
+
+- **Live Demo:**
+- **Blog Post:**
 
 ---
 
@@ -282,4 +283,5 @@ python app.py
 ## Conclusion
 
 This project demonstrates practical application of modern AI techniques to solve real business problems. By combining vector search, local LLMs, and thoughtful system design, I created a tool that makes customer feedback instantly actionable—showcasing both technical depth and product thinking.
+
 # customer-insights-assistant

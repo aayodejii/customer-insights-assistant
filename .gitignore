@@ -46,3 +46,11 @@ dist/
 *.tmp
 .idea/
 *.orig
+
+# ChromaDB
+chroma_db/
+chroma_langchain_db/
+chroma-data/
+db/
+vector_store/
+*.chroma/
