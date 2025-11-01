@@ -279,9 +279,3 @@ python main.py
 | Data       | Pandas             | CSV processing     |
 
 ---
-
-## Conclusion
-
-This project demonstrates practical application of modern AI techniques to solve real business problems. By combining vector search, local LLMs, and thoughtful system design, I created a tool that makes customer feedback instantly actionable—showcasing both technical depth and product thinking.
-
-# customer-insights-assistant

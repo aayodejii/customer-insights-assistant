@@ -52,7 +52,7 @@ def answer_question(question, history):
 demo = gr.ChatInterface(
     fn=answer_question,
     title="Customer Support Assistant",
-    description="Ask me anything about TaskFlow Pro! I'll search through 85+ customer reviews to help answer your questions about features, pricing, support, and more.",
+    description="Ask me anything about the product. I'll search through customer reviews to help answer your questions about features, pricing, support, and more.",
     examples=[
         "What do customers say about the pricing?",
         "How is the customer support rated?",
