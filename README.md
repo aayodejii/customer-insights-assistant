@@ -2,8 +2,6 @@
 
 ## Project Overview
 
-**Type:** AI-Powered Customer Intelligence Tool  
-**Role:** Solo Developer  
 **Tech Stack:** Python, LangChain, Ollama (Llama 3.2), ChromaDB, Gradio, RAG Architecture
 
 ---
@@ -27,11 +25,11 @@ I built an **AI-powered customer insights assistant** that uses Retrieval-Augmen
 
 ### Key Capabilities
 
-✅ **Semantic Search** - Finds relevant reviews based on meaning, not just keywords  
-✅ **Context-Aware Answers** - Synthesizes information from multiple reviews  
-✅ **Role-Based Insights** - Can filter feedback by user role (PM, Engineer, Designer, etc.)  
-✅ **Sentiment Analysis** - Understands positive, negative, and neutral feedback  
-✅ **Instant Responses** - Answers in seconds instead of hours of manual review
+**Semantic Search** - Finds relevant reviews based on meaning, not just keywords  
+**Context-Aware Answers** - Synthesizes information from multiple reviews  
+**Role-Based Insights** - Can filter feedback by user role (PM, Engineer, Designer, etc.)  
+**Sentiment Analysis** - Understands positive, negative, and neutral feedback  
+**Instant Responses** - Answers in seconds instead of hours of manual review
 
 ---
 
@@ -114,18 +112,18 @@ Designed prompt templates that:
 
 ## Key Features
 
-### 🎯 Semantic Understanding
+### Semantic Understanding
 
 Ask "Is it expensive?" → Finds reviews mentioning "pricing", "cost", "value", "subscription"
 
-### 📊 Multi-Dimensional Filtering
+### Multi-Dimensional Filtering
 
 Can answer questions like:
 
 - "What do Project Managers think about integrations?"
 - "How do small companies rate the onboarding?"
 
-### 💬 Natural Conversations
+### Natural Conversations
 
 Chat-based interface allows follow-up questions and context retention
 
@@ -172,10 +170,10 @@ Chat-based interface allows follow-up questions and context retention
 
 ### Quantifiable Outcomes
 
-- ⏱️ **95% time savings** - Answers in 3 seconds vs. 5+ minutes of manual review
-- 🎯 **5 relevant reviews** retrieved per query with high accuracy
-- 💰 **Zero API costs** - Fully local deployment
-- 📈 **85+ reviews** searchable with semantic understanding
+- **95% time savings** - Answers in 3 seconds vs. 5+ minutes of manual review
+- **5 relevant reviews** retrieved per query with high accuracy
+- **Zero API costs** - Fully local deployment
+- **85+ reviews** searchable with semantic understanding
 
 ### Use Cases Enabled
 
@@ -216,25 +214,6 @@ Chat-based interface allows follow-up questions and context retention
 5. **Multi-Language Support**
    - Process reviews in multiple languages
    - Unified insights across regions
-
----
-
-## Learnings & Takeaways
-
-### Technical Skills Developed
-
-✅ **RAG Architecture** - Hands-on experience with retrieval-augmented generation  
-✅ **Vector Databases** - Practical implementation of embeddings and similarity search  
-✅ **LLM Integration** - Working with local models via Ollama  
-✅ **Prompt Engineering** - Crafting effective prompts for accurate outputs  
-✅ **Python Development** - LangChain, Pandas, Gradio frameworks
-
-### Key Insights
-
-1. **Local LLMs are viable** - Llama 3.2 provides quality results without API dependencies
-2. **Metadata matters** - Rich metadata significantly improves retrieval accuracy
-3. **Prompt design is critical** - Small prompt changes drastically affect output quality
-4. **RAG over fine-tuning** - For this use case, RAG is more practical and maintainable
 
 ---
 
