@@ -114,7 +114,7 @@ Designed prompt templates that:
 
 ### Semantic Understanding
 
-Ask "Is it expensive?" → Finds reviews mentioning "pricing", "cost", "value", "subscription"
+Ask "Is it expensive?" Finds reviews mentioning "pricing", "cost", "value", "subscription"
 
 ### Multi-Dimensional Filtering
 
@@ -127,7 +127,7 @@ Can answer questions like:
 
 Chat-based interface allows follow-up questions and context retention
 
-### ⚡ Fast & Local
+### Fast & Local
 
 - Runs entirely locally (no API costs)
 - Sub-second response times
